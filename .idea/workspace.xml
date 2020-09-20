@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4cf9872c-9ac2-4be2-97fc-6dd42d4f96aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/friends-list.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +162,7 @@
       <workItem from="1600158730351" duration="297000" />
       <workItem from="1600284227501" duration="589000" />
       <workItem from="1600414303858" duration="1301000" />
+      <workItem from="1600525276078" duration="2000000" />
     </task>
     <servers />
   </component>
@@ -171,5 +174,13 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="666" y="288" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.976@0.23.1680.976" timestamp="1600291205863" />
+    <state x="543" y="221" width="596" height="580" key="find.popup" timestamp="1600525680580">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="543" y="221" width="596" height="580" key="find.popup/0.23.1680.976@0.23.1680.976" timestamp="1600525680580" />
+    <state x="506" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1600526987199">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="506" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1600526987199" />
   </component>
 </project>
