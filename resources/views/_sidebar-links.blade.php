@@ -21,7 +21,7 @@
     <li>
         <a
             class="font-bold text-lg mb-4 block"
-            href="profile"
+            href="{{ route('profile', auth()->user()) }}"
         >
             Profile
         </a>
