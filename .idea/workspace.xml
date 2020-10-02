@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cf9872c-9ac2-4be2-97fc-6dd42d4f96aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TweetsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TweetsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/friends-list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +146,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/components" />
       <recent name="$PROJECT_DIR$/resources/views/tweets" />
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
@@ -174,7 +171,9 @@
       <workItem from="1600414303858" duration="1301000" />
       <workItem from="1600525276078" duration="2597000" />
       <workItem from="1601020847977" duration="281000" />
-      <workItem from="1601405953907" duration="3386000" />
+      <workItem from="1601405953907" duration="3644000" />
+      <workItem from="1601458087157" duration="498000" />
+      <workItem from="1601623530373" duration="861000" />
     </task>
     <servers />
   </component>
@@ -190,14 +189,23 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="666" y="288" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.976@0.23.1680.976" timestamp="1600291205863" />
+    <state x="100" y="123" width="960" height="1163" key="DiffContextDialog" timestamp="1601623726677">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="100" y="123" width="960" height="1163" key="DiffContextDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1601623726677" />
+    <state x="374" y="330" key="RollbackChangesDialog" timestamp="1601623695497">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="374" y="330" key="RollbackChangesDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1601623695497" />
     <state x="543" y="221" width="596" height="580" key="find.popup" timestamp="1600525680580">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="543" y="221" width="596" height="580" key="find.popup/0.23.1680.976@0.23.1680.976" timestamp="1600525680580" />
-    <state x="506" y="249" width="670" height="712" key="search.everywhere.popup" timestamp="1601408221239">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="771" y="335" width="1021" height="983" key="search.everywhere.popup" timestamp="1601459022381">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="506" y="249" width="670" height="712" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1601408221239" />
     <state x="506" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1600526987199" />
+    <state x="771" y="335" width="1021" height="983" key="search.everywhere.popup/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1601459022381" />
   </component>
 </project>
