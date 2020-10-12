@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf9872c-9ac2-4be2-97fc-6dd42d4f96aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ExploreController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/panel.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/explore.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Followable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Followable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_timeline.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/friends-list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +189,7 @@
       <workItem from="1601405953907" duration="3644000" />
       <workItem from="1601458087157" duration="498000" />
       <workItem from="1601623530373" duration="1345000" />
-      <workItem from="1602528003131" duration="2729000" />
+      <workItem from="1602528003131" duration="4578000" />
     </task>
     <servers />
   </component>
@@ -197,6 +205,10 @@
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
     <state x="236" y="371" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1366/-1680.23.1680.1027@0.23.2560.1366" timestamp="1600675708694" />
+    <state x="541" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602536624192">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="541" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.972@0.23.1680.972" timestamp="1602536624192" />
     <state x="666" y="288" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600291205863">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
@@ -209,10 +221,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="100" y="123" width="960" height="1163" key="DiffContextDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1601623726677" />
-    <state x="606" y="226" key="NewPhpClassDialog" timestamp="1602531238066">
+    <state x="606" y="226" key="NewPhpClassDialog" timestamp="1602536434862">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state x="606" y="226" key="NewPhpClassDialog/0.23.1680.972@0.23.1680.972" timestamp="1602531238066" />
+    <state x="606" y="226" key="NewPhpClassDialog/0.23.1680.972@0.23.1680.972" timestamp="1602536434862" />
     <state x="374" y="330" key="RollbackChangesDialog" timestamp="1601623695497">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -222,11 +234,11 @@
     </state>
     <state x="543" y="220" width="596" height="578" key="find.popup/0.23.1680.972@0.23.1680.972" timestamp="1602533276922" />
     <state x="543" y="221" width="596" height="580" key="find.popup/0.23.1680.976@0.23.1680.976" timestamp="1600525680580" />
-    <state x="506" y="237" width="671" height="675" key="search.everywhere.popup" timestamp="1602533603692">
+    <state x="506" y="237" width="671" height="675" key="search.everywhere.popup" timestamp="1602537665254">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="506" y="249" width="670" height="712" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1601408221239" />
-    <state x="506" y="237" width="671" height="675" key="search.everywhere.popup/0.23.1680.972@0.23.1680.972" timestamp="1602533603692" />
+    <state x="506" y="237" width="671" height="675" key="search.everywhere.popup/0.23.1680.972@0.23.1680.972" timestamp="1602537665254" />
     <state x="506" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1600526987199" />
     <state x="771" y="335" width="1021" height="983" key="search.everywhere.popup/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1601459022381" />
   </component>
