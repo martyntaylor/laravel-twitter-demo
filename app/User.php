@@ -15,7 +15,7 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password'];
+    protected $guarded = [];
 
     /**
      * The attributes that should be hidden for arrays.
@@ -31,9 +31,9 @@ class User extends Authenticatable
      */
     protected $casts = [ 'email_verified_at' => 'datetime' ];
 
-    public function getAvatarAttribute()
+    public function getAvatarAttribute($value)
     {
-        return 'https://api.adorable.io/avatars/40/' . $this->email . '.png';
+        return asset($value);
     }
 
 
@@ -53,7 +53,7 @@ class User extends Authenticatable
 
     public function path($append = '')
     {
-        $path = route('profile', $this->name);
+        $path = route('profile', $this->username);
 
         return $append ? "{$path}/{$append}" : $path;
     }
