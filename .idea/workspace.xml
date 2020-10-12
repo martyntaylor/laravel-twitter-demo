@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cf9872c-9ac2-4be2-97fc-6dd42d4f96aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_timeline.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/friends-list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +181,7 @@
       <workItem from="1601405953907" duration="3644000" />
       <workItem from="1601458087157" duration="498000" />
       <workItem from="1601623530373" duration="1345000" />
-      <workItem from="1602528003131" duration="1652000" />
+      <workItem from="1602528003131" duration="2729000" />
     </task>
     <servers />
   </component>
@@ -219,15 +217,16 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="374" y="330" key="RollbackChangesDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1601623695497" />
-    <state x="543" y="221" width="596" height="580" key="find.popup" timestamp="1600525680580">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state x="543" y="220" width="596" height="578" key="find.popup" timestamp="1602533276922">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
+    <state x="543" y="220" width="596" height="578" key="find.popup/0.23.1680.972@0.23.1680.972" timestamp="1602533276922" />
     <state x="543" y="221" width="596" height="580" key="find.popup/0.23.1680.976@0.23.1680.976" timestamp="1600525680580" />
-    <state x="506" y="237" width="671" height="675" key="search.everywhere.popup" timestamp="1602531587514">
+    <state x="506" y="237" width="671" height="675" key="search.everywhere.popup" timestamp="1602533603692">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="506" y="249" width="670" height="712" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1601408221239" />
-    <state x="506" y="237" width="671" height="675" key="search.everywhere.popup/0.23.1680.972@0.23.1680.972" timestamp="1602531587514" />
+    <state x="506" y="237" width="671" height="675" key="search.everywhere.popup/0.23.1680.972@0.23.1680.972" timestamp="1602533603692" />
     <state x="506" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1600526987199" />
     <state x="771" y="335" width="1021" height="983" key="search.everywhere.popup/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1601459022381" />
   </component>
