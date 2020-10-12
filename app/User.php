@@ -29,9 +29,7 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $casts = [
-        'email_verified_at' => 'datetime'
-    ];
+    protected $casts = [ 'email_verified_at' => 'datetime' ];
 
     public function getAvatarAttribute()
     {
@@ -53,9 +51,11 @@ class User extends Authenticatable
         return $this->hasMany(Tweet::class)->latest();
     }
 
-    public function path()
+    public function path($append = '')
     {
-        return route('profile', $this->name);
+        $path = route('profile', $this->name);
+
+        return $append ? "{$path}/{$append}" : $path;
     }
 
 }
